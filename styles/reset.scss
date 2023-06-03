@@ -1,0 +1,63 @@
+
+
+:root {
+  --primary-color: #0076c6;
+  --secondary-color: #333333;
+  --background-color: #000;
+  --text-color: #888;
+  --font-family: 'Inter', sans-serif;
+  --font-size: 1.6rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+input,
+button {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
